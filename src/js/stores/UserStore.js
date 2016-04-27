@@ -23,7 +23,7 @@ class UserStore extends EventEmitter {
   }
 
   findById(idUser){
-    var result = $.grep(this.users, function(e){ return e.id == idUser; });
+    var result = $.grep(this.users, e =>{ return e.id == idUser; });
     return result[0] ? result[0] : null;
   }
 
