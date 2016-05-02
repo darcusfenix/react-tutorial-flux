@@ -1,7 +1,7 @@
 import React from "react";
 
 import Service from "../../components/Service";
-import ShowService from "../../pages/services/Show"
+import ShowService from "../../pages/service/Show"
 
 export default class Services extends React.Component {
 
